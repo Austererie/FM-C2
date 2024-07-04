@@ -1,0 +1,94 @@
+body{
+  background-color: hsl(0, 0%, 8%);
+  margin: 0;
+}
+
+.container{
+  position: relative;
+  top: 60px;
+  left: 560px;
+
+  width: 430px;
+  height: 680px;
+
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.image img{
+  border-radius: 50%;
+  width: 100px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.info p{
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
+  font-family: 'Inter';
+  margin-top: 20px;
+}
+
+.info h1{
+  color: hsl(0, 0%, 100%);
+  font-size: 27px;
+  margin-bottom: 0;
+  font-family: 'Inter'
+
+}
+.info h2{
+  color: hsl(75, 94%, 57%);
+  margin-top: 8px;
+  font-size: 14px;
+  font-family: 'Inter'
+
+}
+
+.buttons-container{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 330px;
+
+
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 10px;
+  width: 100%;
+  height: 50px;
+  margin: 6px;
+  
+}
+
+.buttons h2{
+  font-size: 15px;
+  color: hsl(0, 0%, 100%);
+  font-family: 'Inter';
+  padding: 5px;
+
+}
+
+.buttons:hover{
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+}
+
+.buttons:hover h2{
+  color: hsl(0, 0%, 12%);
+}
